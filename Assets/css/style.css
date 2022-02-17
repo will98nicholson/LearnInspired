@@ -41,3 +41,20 @@ body {
     grid-area: 1 / 1 / 2 / 2;
     
   }
+  section {
+    margin-right: auto;
+    margin-left: auto;
+     width: 60%;
+     align-items: center;
+ }
+  .uk-card {
+    border: solid 3px black;
+    border-radius: 36px;
+    padding: 30px;
+}
+
+img {
+    border: solid 2px black;
+  }
+
+  
