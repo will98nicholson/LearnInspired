@@ -52,6 +52,9 @@ body {
     border-radius: 36px;
     padding: 30px;
 }
+.uk-grid.my-grid .uk-card .card-red {
+    background-color: #f66435;
+}
 
 img {
     border: solid 2px black;
