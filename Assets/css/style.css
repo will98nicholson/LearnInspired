@@ -1,0 +1,43 @@
+body {
+    background-color: aliceblue;
+}
+.banner-overlay-div {
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    max-width: 100%;
+    /* background: black; */
+    background: linear-gradient(
+      40deg,
+      rgba(0, 0, 0, 0.7777485994397759) 20%,
+      rgba(255, 255, 255, 0) 67% );
+  }
+  .herotext {
+    
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    align-items: center;
+   
+    /* margin-left: 15px;
+    margin-right: 15px; */
+  }
+  .hero {
+    display: grid;
+     /* grid-template-columns: 0.5fr; 
+    grid-template-rows: 350px;  */
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    align-content: center;
+    justify-content: center;
+  }  
+
+.bannerimage {
+    display: grid;
+    
+    object-fit: cover; 
+
+  }
+
+  .heroimage {
+    grid-area: 1 / 1 / 2 / 2;
+    
+  }
