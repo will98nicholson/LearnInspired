@@ -60,6 +60,12 @@ img {
     border: solid 2px black;
   }
 
+  #dis {
+    align-items: center;
+}
+#dis2 {
+    align-items: center;
+}
 #end {
     align-items: center;
 }
